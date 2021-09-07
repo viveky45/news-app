@@ -1,136 +1,266 @@
 {
     "status": "ok",
-    "totalResults": 10,
+    "totalResults": 394,
     "articles": [
     {
     "source": {
-    "id": "bbcnews",
-    "name": "BBC News"
+    "id": null,
+    "name": "MacRumors"
     },
-    "author": "BBC Sport",
-    "title": "ExFrance player dies after 39year coma",
-    "description": "Former France footballer JeanPierre Adams, who had been in a coma for 39 years, has died at the age of 73.",
-    "url": "http://www.bbc.co.uk/sport/football/58463792",
-    "urlToImage": "https://ichef.bbci.co.uk/liveexperience/cps/624/cpsprodpb/A212/production/_120409414_whatsubject.jpg",
-    "publishedAt": "20210906T11:07:24.0750628Z",
-    "content": "JeanPierre Adams won 22 caps for France\r\nFormer France footballer JeanPierre Adams, who had been in a coma for 39 years, has died at the age of 73.\r\nAdams was admitted to hospital for knee surgery … [+1420 chars]"
-    },
-    {
-    "source": {
-    "id": "bbcnews",
-    "name": "BBC News"
-    },
-    "author": "BBC News",
-    "title": "Sunil Perera: Sri Lanka's larger than life music legend dies at 68",
-    "description": "Sunil Perera was the frontman of The Gypsies  Sri Lanka's biggest musical franchise.",
-    "url": "http://www.bbc.co.uk/news/worldasia58458764",
-    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/10414/production/_120408566_3s4a1737002.jpg",
-    "publishedAt": "20210906T10:37:21.9680932Z",
-    "content": "By Ranga Sirilal and Ayeshea PereraBBC News\r\nimage sourcePRADEEP DAMBARAGE\r\nHis songs have pulled people on to dance floors at weddings and parties for decades.\r\nSunil Perera, one of the stalwarts of… [+3510 chars]"
+    "author": "Sami Fathi",
+    "title": "Apple Labels iPhone 12 As 'Legacy' Device, Lists Four Unreleased iPhones in New MagSafe Charger FCC Filing",
+    "description": "Apple has referenced four unreleased iPhones in an updated FCC filing for its MagSafe charger, while at the same time referencing the currently released iPhone 12 lineup as \"legacy\" iPhones. \n\n\n\n\n\nThe new filing doesn't reveal any details about a possible upd…",
+    "url": "https://www.macrumors.com/2021/09/07/magsafechargerfilingnewiphones/",
+    "urlToImage": "https://images.macrumors.com/t/yNtwcVYiiCXJENLX6bqlWIP4m34=/1920x/https://images.macrumors.com/articlenew/2021/07/iphone12proiphone13pro.jpg",
+    "publishedAt": "20210907T06:45:00Z",
+    "content": "Apple has referenced four unreleased iPhones in an updated FCC filing for its MagSafe charger, while at the same time referencing the currently released iPhone 12 lineup as \"legacy\" iPhones. \r\nThe ne… [+1276 chars]"
     },
     {
     "source": {
-    "id": "bbcnews",
-    "name": "BBC News"
+    "id": null,
+    "name": "Benzinga"
     },
-    "author": "BBC News",
-    "title": "Belarus jail terms for opposition figures Kolesnikova and Znak",
-    "description": "Maria Kolesnikova receives 11 years in jail and Maxim Znak 10 on charges of trying to seize power.",
-    "url": "http://www.bbc.co.uk/news/worldeurope58395120",
-    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/07CD/production/_119779910_gettyimages1234447249.jpg",
-    "publishedAt": "20210906T10:07:22.9139405Z",
-    "content": "image captionMaria Kolesnikova appeared in court after 11 months in jail last month\r\nTwo leading opposition figures who challenged Belarus's discredited presidential polls have been jailed for trying… [+2399 chars]"
-    },
-    {
-    "source": {
-    "id": "bbcnews",
-    "name": "BBC News"
-    },
-    "author": "BBC News",
-    "title": "Six Palestinian prisoners escape Israeli jail through tunnel",
-    "description": "Israel launches a huge manhunt after six militants dug their way out of the highsecurity jail.",
-    "url": "http://www.bbc.co.uk/news/worldmiddleeast58460702",
-    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/11864/production/_120408717_mediaitem120408716.jpg",
-    "publishedAt": "20210906T10:07:19.8990648Z",
-    "content": "image captionGilboa Prison is a highsecurity facility known as \"the Safe\"\r\nIsraeli authorities have launched a massive manhunt after six Palestinian prisoners escaped from one of the country's most … [+2690 chars]"
+    "author": "Rachit Vats",
+    "title": "Apple Won't Bring Satellite Features To iPhone 13 At The Time Of Launch: Report  Benzinga",
+    "description": "<ol><li>Apple Won't Bring Satellite Features To iPhone 13 At The Time Of Launch: Report  Benzinga\r\n</li><li>Apple Watch Series 7 will reportedly be scarce postlaunch  MobileSyrup\r\n</li><li>iPhone 13 release date: Apple's new iPhone is coming soon  CNET\r\n</li…",
+    "url": "https://www.benzinga.com/news/21/09/22819629/applewontbringsatellitefeaturestoiphone13atthetimeoflaunchreport",
+    "urlToImage": "https://cdn.benzinga.com/files/imagecache/og_image_social_share_1200x630/images/story/2012/dennisbrendelylnmxzxk8zsunsplash.jpg",
+    "publishedAt": "20210907T06:52:42Z",
+    "content": "Apple Inc’s (NASDAQ: AAPL) satellitebased feature for emergency situations will not be available on the highlyanticipated iPhone 13 at the time of launch, as per Bloomberg's Mark Gurman. \r\nWhat Hap… [+1321 chars]"
     },
     {
     "source": {
-    "id": "bbcnews",
-    "name": "BBC News"
+    "id": null,
+    "name": "Substack.com"
     },
-    "author": "BBC News",
-    "title": "Babies who were conjoined see each other first time",
-    "description": "The Israeli twin girls were joined at the head but have been separated after a rare operation.",
-    "url": "http://www.bbc.co.uk/news/worldmiddleeast58460842",
-    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/550A/production/_120407712_twins.jpg",
-    "publishedAt": "20210906T08:37:20.8790995Z",
-    "content": "Oneyearold twins, born conjoined at the head, have made eye contact for the very first time after undergoing a rare separation surgery in Israel. \r\nThe girls, who have not been named, are said to b… [+196 chars]"
-    },
-    {
-    "source": {
-    "id": "bbcnews",
-    "name": "BBC News"
-    },
-    "author": "BBC News",
-    "title": "Australian boy, 3, rescued after four days lost in bush",
-    "description": "Anthony \"AJ\" Elfalak was spotted by a helicopter drinking water from a creek near his home.",
-    "url": "http://www.bbc.co.uk/news/worldaustralia58458983",
-    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/14ABE/production/_120407648_aj.png",
-    "publishedAt": "20210906T07:52:19.3403555Z",
-    "content": "image captionAnthony 'AJ' Elfalak was missing for four days when spotted by a helicopter\r\nA threeyearold boy who went missing in the Australian bush four days ago has been found safe after a search… [+1835 chars]"
+    "author": "Bryan Lunduke",
+    "title": "Commodore 64 Ads from the 1980s",
+    "description": "Computer magazine advertisements from the 1980s were just plain fantastic.",
+    "url": "https://lunduke.substack.com/p/commodore64adsfromthe1980sstill",
+    "urlToImage": "https://cdn.substack.com/image/fetch/w_1200,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeere05bbc84baa3437e9518adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0a9f7ae7e72b4f728d427d36c8e44339_778x602.jpeg",
+    "publishedAt": "20210907T01:25:21Z",
+    "content": "The Commodore 64 is a fascinating machine. It is the single best selling computer model in human history. The fact that the C64 still holds that title in 2021 close to three decades after being disco… [+1516 chars]"
     },
     {
     "source": {
-    "id": "bbcnews",
-    "name": "BBC News"
+    "id": null,
+    "name": "Morashon.com"
     },
-    "author": "BBC News",
-    "title": "Afghanistan: Taliban claim to have seized holdout Afghan valley",
-    "description": "A Taliban spokesman says they are in complete control of Panjshir, but resistance fighters dispute this.",
-    "url": "http://www.bbc.co.uk/news/live/world58279900",
-    "urlToImage": "https://m.files.bbci.co.uk/modules/bbcmorphnewswafpagemeta/5.2.0/bbc_news_logo.png",
-    "publishedAt": "20210906T06:37:33.7724883Z",
-    "content": "\"Why are you travelling without a mahram?\" the Taliban guard asks a young Afghan woman about her missing male escort.\r\nShe\r\n sits on her own in the back of a beatup Kabul yellow taxi as it pulls \r\nu… [+1369 chars]"
-    },
-    {
-    "source": {
-    "id": "bbcnews",
-    "name": "BBC News"
-    },
-    "author": "BBC News",
-    "title": "Khalid Sheikh Mohammed: How '9/11 mastermind' slipped through FBI's fingers",
-    "description": "Could the man accused of hatching the plot to fly planes into US landmarks 20 years ago have been stopped?",
-    "url": "http://www.bbc.co.uk/news/worlduscanada58393231",
-    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/3D34/production/_120386651_ksm_976getty.jpg",
-    "publishedAt": "20210906T05:37:19.3752883Z",
-    "content": "By Gordon Corera &amp; Steve SwannBBC News\r\nimage captionMohammed in court in 2012\r\nThe man accused of hatching the devastating plot to fly hijacked passenger planes into US landmarks 20 years ago is… [+9275 chars]"
+    "author": null,
+    "title": "Morashon",
+    "description": "Comments",
+    "url": "http://www.morashon.com/",
+    "urlToImage": null,
+    "publishedAt": "20210907T05:30:05Z",
+    "content": "When the history of our era is written, I believe that the introduction of the Internet, and the digitization of the bulk of human communication (including the storage and \r\n retrieval of works in va… [+9802 chars]"
     },
     {
     "source": {
-    "id": "bbcnews",
-    "name": "BBC News"
+    "id": null,
+    "name": "heise online"
     },
-    "author": "BBC News",
-    "title": "Taiwan says 19 Chinese warplanes entered air defence zone",
-    "description": "Taiwan says nuclearcapable bombers were among the jets that flew into the air defence zone.",
-    "url": "http://www.bbc.co.uk/news/worldasia58459128",
-    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/18484/production/_120406499_gettyimages1176447697.jpg",
-    "publishedAt": "20210906T03:52:20.8737686Z",
-    "content": "image captionSunday's mission involved 10 J16 and four Su30 fighters, as well as four H6 bombers and an antisubmarine aircraft\r\nTaiwan has said a large incursion of Chinese military jets flew int… [+2008 chars]"
+    "author": "Andreas Knobloch",
+    "title": "Dienstag: SpionageKabel, Schwarzes Loch, MaxiRaumschiff, Starlink & ProtonMail",
+    "description": "USBCaufLightningKabel spioniert + Neue Art von Supernova + China plant Riesenraumschiff + StarGroup gegen Elon Musk + ProntonMail verrät Klimaaktivisten",
+    "url": "https://www.heise.de/news/DienstagSpionageKabelSchwarzesLochRaumschiffStarlinkProtonMail6184102.html",
+    "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.pnglossy85.webplossy85.foil1/_wwwheisede_/imgs/18/3/1/6/4/1/3/5/Wochentagesourcesans0dcc7d3b9a8a6171.png",
+    "publishedAt": "20210907T04:30:00Z",
+    "content": "Der Weltraum, unendliche Weiten Im All ist einiges los an diesem Dienstag: Ein schwarzes Loch frisst sich durch einen Stern, China plant den Bau eines kilometerlangen Raumschiffes und Elon Musk muss … [+3321 chars]"
     },
     {
     "source": {
-    "id": "bbcnews",
-    "name": "BBC News"
+    "id": null,
+    "name": "9to5Mac"
     },
-    "author": "BBC News",
-    "title": "Why China's bitcoin miners are moving to Texas",
-    "description": "Beijing's crackdown on cryptocurrency sends bitcoin entrepreneurs moving to the wild wild west.",
-    "url": "http://www.bbc.co.uk/news/worlduscanada58414555",
-    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/380B/production/_99474341_hi043743901.jpg",
-    "publishedAt": "20210904T15:22:22.2719266Z",
-    "content": "By Zhaoyin FengBBC News, Washington\r\nChina's ban on cryptocurrency mining has forced bitcoin entrepreneurs to flee overseas. Many are heading to Texas, which is quickly becoming the next global crypt… [+6268 chars]"
+    "author": "Filipe Espósito",
+    "title": "‘On The Rocks’ is the first Apple TV+ movie to be released on BluRay; now available for preorder",
+    "description": "While Apple TV+ is a streaming platform, one of the shows available there can also be found on physical disc. Now the company has announced that the Apple Original Film “On The Rocks” will be released on BluRay and DVD next month as the first Apple TV+ film …",
+    "url": "http://9to5mac.com/2021/09/06/ontherocksisthefirstappletvmovietobereleasedonbluraynowavailableforpreorder/",
+    "urlToImage": "https://i2.wp.com/9to5mac.com/wpcontent/uploads/sites/6/2020/10/Apple_TV_On_The_Rocks_key_art_sh_cr.jpg.large_2x.jpg?resize=1200%2C628&ssl=1",
+    "publishedAt": "20210907T00:49:49Z",
+    "content": "While Apple TV+ is a streaming platform, one of the shows available there can also be found on physical disc. Now the company has announced that the Apple Original Film On The Rocks will be released … [+1333 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Lifehacker.jp"
+    },
+    "author": "的野裕子",
+    "title": "Macのストレージを占領する「その他」ファイルを削除する方法",
+    "description": "Macのストレージを占める「その他」ファイルを見つけ出し、削除する方法を紹介します。",
+    "url": "https://www.lifehacker.jp/2021/09/241417howtodeletespacehoggingotherfilesonyourmac.html",
+    "urlToImage": "https://assets.mediaplatform.com/lifehacker/dist/images/2021/09/06/210907macfiles_topw960.jpg",
+    "publishedAt": "20210907T01:00:00Z",
+    "content": "Mac\r\nMacMac\r\nmacOS\r\nApple\r\nApplePDFzipdmg\r\nApple\r\nAppleMac \r\n1. \r\nAppleShiftCommandG/Caches\r\nCaches\r\nMacMac\r\n2. \r\nApple1\r\nmacOSMac\r\n1DaisyDisk101CleanMyMacX\r\nCleanMyMacX\r\nCleanMyMacX\r\nCleanMyMacX\r\nCl… [+167 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "AppleInsider"
+    },
+    "author": "news@appleinsider.com (AppleInsider Staff)",
+    "title": "New Apple MagSafe charger for iPhone revealed in FCC filing",
+    "description": "A Federal Communications Commission filing published Monday reveals an updated MagSafe charger for iPhone that could launch with an expected \"iPhone 13\" this fall.The filing, which includes reports relating to occupied bandwidth, radiated emissions and other …",
+    "url": "https://appleinsider.com/articles/21/09/07/newapplemagsafechargerforiphonerevealedinfccfiling",
+    "urlToImage": "https://photos5.appleinsider.com/gallery/4425085948210906MagSafexl.jpg",
+    "publishedAt": "20210907T00:28:05Z",
+    "content": "A Federal Communications Commission filing published Monday reveals an updated MagSafe charger for iPhone that could launch with an expected \"iPhone 13\" this fall.\r\nThe filing, which includes reports… [+1574 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "AppleInsider"
+    },
+    "author": "news@appleinsider.com (AppleInsider Staff)",
+    "title": "Apple TV+ original 'On the Rocks' hits BluRay and DVD on Oct. 26",
+    "description": "Apple TV+ comedy \"On the Rocks\" will be the streaming service's first original film to see physical release, with the movie set for distribution by Lionsgate Home Entertainment.BluRay and DVD listings for \"On the Rocks\" began to pop up on Monday with a relea…",
+    "url": "https://appleinsider.com/articles/21/09/07/appletvoriginalontherockshitsblurayanddvdonoct26",
+    "urlToImage": "https://photos5.appleinsider.com/gallery/4425285950210906OnTheRocksxl.jpg",
+    "publishedAt": "20210907T01:57:56Z",
+    "content": "Apple TV+ comedy \"On the Rocks\" will be the streaming service's first original film to see physical release, with the movie set for distribution by Lionsgate Home Entertainment.\r\nBluRay and DVD list… [+958 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "AppleInsider"
+    },
+    "author": "news@appleinsider.com (Andrew O'Hara)",
+    "title": "Thinka debuts world's first ZWave hub for HomeKit",
+    "description": "Thinka on Tuesday took the wraps off the first ZWave hub for HomeKit, bringing support for more than 3,300 new accessories to Apple's smart home platform.Thinka ZWave hub for HomeKitThe new Applecertified Thinka ZWave is a simple hub that allows many ZWa…",
+    "url": "https://appleinsider.com/articles/21/09/07/thinkadebutsworldsfirstzwavehubforhomekit",
+    "urlToImage": "https://photos5.appleinsider.com/gallery/4424485952F8BB8ACB423B49B1A4ACDFE26178285Dxl.jpg",
+    "publishedAt": "20210907T06:51:32Z",
+    "content": "Thinka on Tuesday took the wraps off the first ZWave hub for HomeKit, bringing support for more than 3,300 new accessories to Apple's smart home platform.\r\nThe new Applecertified Thinka ZWave is a… [+1096 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Gizmodo.jp"
+    },
+    "author": "田中宏和",
+    "title": "Apple Musicの支払いにも！ 楽天でApp Store＆iTunes ギフトカードが10%オフのキャンペーン中",
+    "description": "Appleユーザーなら、とりあえず押さえておくでしょ！有料アプリの購入やアプリ内での課金、Apple Musicのサブスク支払いにも使える「App Store＆iTunes ギフトカード」が、楽天市場で10％オフキャンペーン中。いつもはクレカで支払っているという人も、とりあえず購入しておけば、購入価格の10％分お得に買い物できちゃいますよ。",
+    "url": "https://www.gizmodo.jp/2021/09/appstore_itunes_giftcard_sale.html",
+    "urlToImage": "https://assets.mediaplatform.com/gizmodo/dist/images/2021/09/02/20210903_applecards_topw960.jpg",
+    "publishedAt": "20210907T02:45:00Z",
+    "content": "Apple\r\nApple MusicApp StoreiTunes 1020219102359\r\nApple ID \r\nScreenshot: \r\n980Apple Music\r\n9,80017App StoreiTunes 5,00010OFF25\r\nApple Music315588\r\nScreenshot: \r\niCloud \r\n15,000\r\nImage/Source: , Apple"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Gizmodo.jp"
+    },
+    "author": "そうこ",
+    "title": "従業員が「AppleToo」で抗議中のApple労働環境について、外部機関が調査",
+    "description": "Image:DrewAngerer/GettyImages先月、Apple社員が労働環境改善を訴え上層部への公開レター（ウェブサイト）を立ち上げたことで、会社のあり方が今まで以上に注目されているApple。現在、全米労働関係委員会が調査を行なっていることが明らかになりました。米情報公開法の下公開された資料によると、調査が入っているのはシニア開発プログラムマネージャーのAshleyGjovik氏の件",
+    "url": "https://www.gizmodo.jp/2021/09/appleaccusedofretaliationafterworkersspokeout.html",
+    "urlToImage": "https://assets.mediaplatform.com/gizmodo/dist/images/2021/09/07/GettyImages1234864297w960.jpg",
+    "publishedAt": "20210907T07:30:00Z",
+    "content": "AppleApple\r\nAshley GjovikGjovikGjovik\r\nApple\r\nGjovikGjovik\r\nApple\r\nGjovikAppleAppleApple\r\nGjovikAppleCher Scarlett1BloombergSlackApple\r\nAppleReuters\r\n#AppleToo"
+    },
+    {
+    "source": {
+    "id": "engadget",
+    "name": "Engadget"
+    },
+    "author": "Kiyoshi Tane",
+    "title": "iPhone 13(仮)の「A15」チップ、GPU性能はA14やサムスン次期SoCを凌駕か",
+    "description": "次期iPhone 13(仮)用の「A15」チップのGPUと称するベンチマーク結果が公開され、A14の性能をはるかに凌駕する可能性が示されています。",
+    "url": "https://japanese.engadget.com/iphone13a15perfomancegpu063042562.html",
+    "urlToImage": "https://s.yimg.com/os/creatruploadedimages/202109/082630a00f9f11ec9fdffadfbc9e4b60",
+    "publishedAt": "20210907T06:30:42Z",
+    "content": "iPhone 12A14 Bionic1iPhone 13()A15GPUA14\r\nTron(@FrontTronClienApple A15 GPUTwitter\r\nA15 BionicA146GFXBenchManhattan 3.11198fpsA14SoCExynos 2200170.7fps120.0fps\r\nApple A15 GPU peak benchmark testManha… [+313 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Korben.info"
+    },
+    "author": "Remouk",
+    "title": "A Monster’s Expedition",
+    "description": "Vous le savez, chaque semaine j’anime avec Remouk de DansTonChat, l’émission Webosaures sur Twitch. On s’amuse et c’est vraiment cool de pouvoir faire ça avec lui. Aujourd’hui un article un peu spécial puisque pour une fois je n’en suis pas l’auteur. En effet…",
+    "url": "https://korben.info/amonstersexpedition.html",
+    "urlToImage": "https://korben.info/app/uploads/2021/09/AMonstersExpeditionBanner.jpg",
+    "publishedAt": "20210907T07:00:00Z",
+    "content": "Vous le savez, chaque semaine janime avec Remouk de DansTonChat, lémission Webosaures sur Twitch. On samuse et cest vraiment cool de pouvoir faire ça avec lui. Aujourdhui un article un peu spécial pu… [+1678 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Applesfera.com"
+    },
+    "author": "Eduardo Archanco",
+    "title": "La FCC se 'chiva' de que habrá cuatro modelos de iPhone 13 en un documento sobre una nueva versión del cargador MagSafe",
+    "description": "Apple planea lanzar una versión renovada de MagSafe compatible con los iPhone 12 actuales y el futuro iPhone 13. Gracias a la documentación enviada a la comisión estadounidense, podemos ver cómo Apple ha enviado esta nueva versión para su análisis y aprobació…",
+    "url": "https://www.applesfera.com/rumores/fccsechivaquehabracuatromodelosiphone13documentonuevaversioncargadormagsafe",
+    "urlToImage": "https://i.blogs.es/5d0ba0/1366_2000/840_560.jpeg",
+    "publishedAt": "20210907T06:14:41Z",
+    "content": "Apple planea lanzar una versión renovada de MagSafe compatible con los iPhone 12 actuales y el futuro iPhone 13. Gracias a la documentación enviada a la comisión estadounidense, podemos ver cómo Appl… [+1750 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Applesfera.com"
+    },
+    "author": "David Bernal Raspall",
+    "title": "Un desarrollador ha remasterizado los fondos de pantalla de Mac OS X en 6K y P3, aquí podemos descargarlos",
+    "description": "El fondo de pantalla es un elemento fundamental del estilo de nuestro dispositivo. Consciente de esto el desarrollador Rafael Conde ha decidido remasterizar cuatro fondos de pantalla clásicos de Mac OS X para convertirlos en imágenes 6K y P3.\n<! BREAK 1 >…",
+    "url": "https://www.applesfera.com/curiosidades/desarrolladorharemasterizadofondospantallamacosx6kp3aquipodemosdescargarlos",
+    "urlToImage": "https://i.blogs.es/91f200/leopard6k/840_560.jpeg",
+    "publishedAt": "20210907T05:54:46Z",
+    "content": "El fondo de pantalla es un elemento fundamental del estilo de nuestro dispositivo. Consciente de esto el desarrollador Rafael Conde ha decidido remasterizar cuatro fondos de pantalla clásicos de Mac … [+1300 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Applesfera.com"
+    },
+    "author": "Pedro Aznar",
+    "title": "Análisis del maletín con bolsillos magnéticos Laptop Briefcase de Harber: vuelve a la oficina con estilo",
+    "description": "Una de las cosas que más echo de menos es viajar. Ahora que  esperemos  todo debería ir mejorando la perspectiva del COVID19, volverán antiguos rituales que también forma parte de ellos. Uno de los que yo tenía prácticamente automatizados era preparar la m…",
+    "url": "https://www.applesfera.com/accesorios/analisismaletinbolsillosmagneticoslaptopbriefcaseharbervuelveaoficinaestilo",
+    "urlToImage": "https://i.blogs.es/c38f1e/maletinreview20/840_560.jpeg",
+    "publishedAt": "20210907T06:01:12Z",
+    "content": "Una de las cosas que más echo de menos es viajar. Ahora que  esperemos  todo debería ir mejorando la perspectiva del COVID19, volverán antiguos rituales que también forma parte de ellos. Uno de lo… [+10634 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Andrewchen.com"
+    },
+    "author": "Andrew Chen",
+    "title": "Announcing the 2021 book tour for my upcoming book, The Cold Start Problem",
+    "description": "Hi readers, I’m excited to start taking reservations for my 2021 book tour ahead of the launch of my new book, The Cold Start Problem. The book focuses on how the world’s most valuable technology companies — Tinder, Slack, Zoom, Instagram, Reddit, Twitter, Ai…",
+    "url": "https://andrewchen.com/coldstartbooktour/",
+    "urlToImage": null,
+    "publishedAt": "20210907T00:56:00Z",
+    "content": "Hi readers,I’m excited to start taking reservations for my 2021 book tour ahead of the launch of my new book, The Cold Start Problem.\r\nThe book focuses on how the world’s most valuable technology com… [+7425 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Phandroid  News for Android"
+    },
+    "author": "Tyler Lee",
+    "title": "Your favorite flagship smartphones are about to get even more expensive",
+    "description": "TSMC, who manufactures a good majority of chipsets, will be increasing their costs. This in turn means that flagship phones in the future are expected to get even more expensive than ever.\nThe post Your favorite flagship smartphones are about to get even more…",
+    "url": "https://phandroid.com/2021/09/07/yourfavoriteflagshipsmartphonesareabouttogetevenmoreexpensive/",
+    "urlToImage": "https://phandroid.com/wpcontent/uploads/2012/11/tsmcheadquarters640x351.jpg",
+    "publishedAt": "20210907T05:10:10Z",
+    "content": "We live in an age where flagship smartphones can now easily cost over $1,000. That’s the price we have to pay to own the latest and greatest, but unfortunately, those prices are about to get even hig… [+1232 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Pressecitron"
+    },
+    "author": "Setra",
+    "title": "iPhone 13 : une autre mauvaise nouvelle concernant la communication par satellite",
+    "description": "La communication par satellite de l’iPhone 13 ne serait disponible que dans quelques pays.",
+    "url": "https://www.pressecitron.net/?p=451929",
+    "urlToImage": "https://www.pressecitron.net/app/uploads/2019/05/Unpoucejaimesoleilcielmaincorps.jpg",
+    "publishedAt": "20210907T07:30:46Z",
+    "content": "Ce mois de septembre, Apple présentera liPhone 13 et ses variantes. Alors quon sattendait à ce quil sagisse dune version améliorée de la série iPhone 12, une « fuite » de dernière minute a indiqué qu… [+2190 chars]"
     }
     ]
     }

@@ -7,16 +7,16 @@ export default class NewsItem extends Component {
     }
 
     render() {
-        let {title,description,imageurl} = this.props;
+        let {title,description,imageurl,newsUrl} = this.props;
         return (
            
             <div>
                 <div className="card" style={{width: "18rem"}}>
-              <img src={imageurl} className="card-img-top" alt="..."/>
+              <img src={imageurl} className="card-img-top" alt="..." style={{height:"9rem"}}/>
               <div className="card-body">
-                <h5 className="card-title">{title}</h5>
-                <p className="card-text">{description}</p>
-                <a href="/newsdetail" className="btn tbn-sm btn-primary">Go somewhere</a>
+                <h5 className="card-title">{title.slice(0,22)}...</h5>
+                <p className="card-text">{description.slice(0,75)}....</p>
+                <a href={newsUrl} target="_blank" className="btn tbn-sm btn-primary">Read more</a>
             </div>
           </div>
             </div>
