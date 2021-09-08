@@ -3,208 +3,269 @@ import NewsItem from './NewsItem'
 
 export default class News extends Component {
 
-        articles= [
-          {
-            "source": { "id": "engadget", "name": "Engadget" },
-            "author": "Jon Fingas",
-            "title": "Cricket customers will get free HBO Max, if they don't mind ads",
-            "description": "You won't have to spring for AT&T's regular phone service if you want HBO Max tacked on to your plan — provided you're wiling to make some sacrifices. The carrier's Cricket Wireless brand has revealed that it will provide free HBO Max service to customers usi…",
-            "url": "https://www.engadget.com/cricket-wireless-free-hbo-max-130029149.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-03/9cb806d0-83fe-11eb-9f8f-49bab7cbf77e",
-            "publishedAt": "2021-08-19T13:00:29Z",
-            "content": "You won't have to spring for AT&amp;T's regular phone service if you want HBO Max tacked on to your plan provided you're wiling to make some sacrifices. The carrier's Cricket Wireless brand has revea… [+1020 chars]"
-          },
-          {
-            "source": { "id": "reuters", "name": "Reuters" },
-            "author": "Reuters",
-            "title": "Former UAE keeper Shabbir banned for four years - Reuters",
-            "description": "Former United Arab Emirates (UAE) wicketkeeper Gulam Shabbir has been banned from all forms of cricket for four years after admitting breaching six counts of the International Cricket Council's (ICC) anti-corruption code, world cricket's governing body said o…",
-            "url": "https://www.reuters.com/lifestyle/sports/former-uae-keeper-shabbir-banned-four-years-2021-09-06/",
-            "urlToImage": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.png?d=50",
-            "publishedAt": "2021-09-06T12:20:00Z",
-            "content": "Sept 6 (Reuters) - Former United Arab Emirates (UAE) wicketkeeper Gulam Shabbir has been banned from all forms of cricket for four years after admitting breaching six counts of the International Cric… [+1190 chars]"
-          },
-          {
-            "source": { "id": "reuters", "name": "Reuters" },
-            "author": "Iain Axon",
-            "title": "Taliban to allow men's cricket; status of smaller women's programmes unclear - Reuters",
-            "description": "The Taliban have said they will not interfere with the Afghan men's national cricket team, the country's biggest sporting success of recent years, or stop the expansion of the flagship Twenty20 league, an Afghan cricket official said.",
-            "url": "https://www.reuters.com/lifestyle/sports/taliban-allow-mens-cricket-status-smaller-womens-programmes-unclear-2021-08-19/",
-            "urlToImage": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.png?d=50",
-            "publishedAt": "2021-08-19T17:20:00Z",
-            "content": "Aug 19 (Reuters) - The Taliban have said they will not interfere with the Afghan men's national cricket team, the country's biggest sporting success of recent years, or stop the expansion of the flag… [+2903 chars]"
-          },
-          {
-            "source": { "id": "bbc-news", "name": "BBC News" },
-            "author": null,
-            "title": "England recall Moeen for second Test against India",
-            "description": "Worcestershire all-rounder Moeen Ali is added to the England squad for the second Test against India at Lord's.",
-            "url": "https://www.bbc.co.uk/sport/cricket/58142837",
-            "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/175B3/production/_119876659_tv069307074.jpg",
-            "publishedAt": "2021-08-10T09:53:07Z",
-            "content": "Moeen Ali has played Twenty20 cricket for England this summer\r\nWorcestershire all-rounder Moeen Ali has been added to the England squad for the second Test against India.\r\nMoeen last played Test cric… [+345 chars]"
-          },
-          {
-            "source": { "id": "bbc-news", "name": "BBC News" },
-            "author": null,
-            "title": "Former England and Sussex captain Dexter dies aged 86",
-            "description": "Former England captain and attacking batter Ted Dexter dies aged 86.",
-            "url": "https://www.bbc.co.uk/sport/cricket/58337771",
-            "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/13590/production/_97584297_breaking_news.png",
-            "publishedAt": "2021-08-26T07:00:33Z",
-            "content": "Former England and Sussex captain Ted Dexter has died aged 86.\r\nNicknamed 'Lord Ted', Dexter was an aggressive batsman and useful seam bowler who played 62 Tests for England and was captain between 1… [+1520 chars]"
-          },
-          {
-            "source": { "id": "reuters", "name": "Reuters" },
-            "author": "Reuters Staff",
-            "title": "Cricket-England 'confident' of Ashes tour amid travel negotiations - Reuters",
-            "description": "The England and Wales Cricket Board (ECB) is \"very confident\" the end of year Ashes tour will go ahead as planned even though negotiations are continuing over travel and quarantine restrictions in Australia.",
-            "url": "https://www.reuters.com/article/uk-cricket-ashes-england-idUSKBN2FE0HA",
-            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210813&t=2&i=1571804032&r=LYNXMPEH7C09L&w=800",
-            "publishedAt": "2021-08-13T06:30:00Z",
-            "content": "By Reuters Staff\r\nLONDON (Reuters) - The England and Wales Cricket Board (ECB) is very confident the end of year Ashes tour will go ahead as planned even though negotiations are continuing over trave… [+1929 chars]"
-          },
-          {
-            "source": { "id": "reuters", "name": "Reuters" },
-            "author": "Reuters",
-            "title": "Former England captain Dexter dies aged 86 - Reuters",
-            "description": "Former England captain Ted Dexter has died aged 86 after a recent illness, Marylebone Cricket Club (MCC) said on Thursday.",
-            "url": "https://www.reuters.com/lifestyle/sports/former-england-captain-dexter-dies-aged-86-2021-08-26/",
-            "urlToImage": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.png?d=50",
-            "publishedAt": "2021-08-26T08:00:00Z",
-            "content": "Aug 26 (Reuters) - Former England captain Ted Dexter has died aged 86 after a recent illness, Marylebone Cricket Club (MCC) said on Thursday.\r\nDexter, nicknamed \"Lord Ted\", was an aggressive batsman … [+1572 chars]"
-          },
-          {
-            "source": { "id": "reuters", "name": "Reuters" },
-            "author": "Reuters Staff",
-            "title": "Olympics-ICC prepares bid for cricket's inclusion in 2028 LA Games - Reuters",
-            "description": "The International Cricket Council (ICC) is preparing a bid for the game's inclusion in the 2028 Olympic Games in Los Angeles, the governing body said on Tuesday.",
-            "url": "https://www.reuters.com/article/us-olympics-cricket-icc-idUSKBN2FB0I1",
-            "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210810&t=2&i=1571487848&r=LYNXMPEH7907C&w=800",
-            "publishedAt": "2021-08-10T06:53:00Z",
-            "content": "By Reuters Staff\r\nNEW DELHI (Reuters) - The International Cricket Council (ICC) is preparing a bid for the games inclusion in the 2028 Olympic Games in Los Angeles, the governing body said on Tuesday… [+1621 chars]"
-          },
-          {
-            "source": { "id": null, "name": "The Guardian" },
-            "author": "Arnel Hecimovic",
-            "title": "Melting ice and the Taliban watching cricket: Friday’s best photos",
-            "description": "The Guardian’s picture editors select photo highlights from around the world Continue reading...",
-            "url": "https://www.theguardian.com/news/gallery/2021/sep/03/melting-ice-and-the-taliban-watching-cricket-fridays-best-photos",
-            "urlToImage": "https://i.guim.co.uk/img/media/25145bbbae231d66f7f43d1cd4472a936e721ed6/993_623_4262_2557/master/4262.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a66c9ce693b78031cc30a37e72a8a54e",
-            "publishedAt": "2021-09-03T14:01:26Z",
-            "content": "The Guardians picture editors select photo highlights from around the world"
-          },
-          {
-            "source": { "id": null, "name": "The Guardian" },
-            "author": "PA Media",
-            "title": "South Africa legend Dale Steyn announces retirement from cricket",
-            "description": "<ul><li>Fast bowler took 439 wickets in 93 Test matches</li><li>‘It’s been an incredible journey,’ says Steyn of 18-year career</li></ul>The South Africa fast bowler Dale Steyn has announced his retirement. The 38-year-old, considered one of the finest bowler…",
-            "url": "https://amp.theguardian.com/sport/2021/aug/31/south-africa-legend-dale-steyn-announces-retirement-from-cricket",
-            "urlToImage": "https://i.guim.co.uk/img/media/21b462eee9d72263656be19f47d619a03ded3189/0_57_3000_1800/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7a19bfc49026eda1148dd4860f3da44f",
-            "publishedAt": "2021-08-31T11:15:51Z",
-            "content": "The South Africa fast bowler Dale Steyn has announced his retirement. The 38-year-old, considered one of the finest bowlers of his generation, made the announcement on social media, calling time on h… [+1082 chars]"
-          },
-          {
-            "source": { "id": "bbc-news", "name": "BBC News" },
-            "author": null,
-            "title": "'I play carrom with my feet'",
-            "description": "Twenty-three-year-old Harshad Gothankar was born without arms, but he is now a state carrom champion.",
-            "url": "https://www.bbc.co.uk/news/av/world-asia-india-58265853",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/EA26/production/_120024995_p09sjdrw.jpg",
-            "publishedAt": "2021-08-20T23:41:43Z",
-            "content": "Harshad Gothankar shot to social media fame recently when cricket superstar Sachin Tendulkar tweeted a video of the young man playing carrom with his feet, calling it inspirational. \r\nCarrom is a hug… [+418 chars]"
-          },
-          {
-            "source": { "id": null, "name": "The Guardian" },
-            "author": "PA Media",
-            "title": "Former England cricket captain Ted Dexter dies aged 86",
-            "description": "<ul><li>Dexter captained England 30 times in the 1960s</li><li>Sussex captain was president of MCC after playing retirement</li></ul>The former England cricket captain Ted Dexter has died aged 86. The MCC announced the death of its former president, who capta…",
-            "url": "https://amp.theguardian.com/sport/2021/aug/26/former-england-cricket-captain-ted-dexter-dies-aged-86",
-            "urlToImage": "https://i.guim.co.uk/img/media/20a66e5201cce1c4f0b38cb3f2cd7c4a825243fa/153_178_2148_1288/master/2148.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9c1a2c17e930d9efb994335d7d60173e",
-            "publishedAt": "2021-08-26T07:29:10Z",
-            "content": "The former England cricket captain Ted Dexter has died aged 86. The MCC announced the death of its former president, who captained his country 30 times, on Thursday morning.\r\nAfter a recent illness h… [+777 chars]"
-          },
-          {
-            "source": { "id": "reuters", "name": "Reuters" },
-            "author": "Reuters",
-            "title": "Cairns on life support after collapsing in Australia - report - Reuters",
-            "description": "Former New Zealand cricket all-rounder Chris Cairns is on life support at a Canberra hospital after recently collapsing with a health problem in Australia, New Zealand media reported on Tuesday.",
-            "url": "https://www.reuters.com/lifestyle/sports/cairns-life-support-after-collapsing-australia-report-2021-08-10/",
-            "urlToImage": "https://www.reuters.com/resizer/3UhIZPxg6DH9mszlveoK4VeUFD4=/800x419/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/UGM45GGAZVJW7PNSAWN4XOL3LQ.jpg",
-            "publishedAt": "2021-08-10T08:50:00Z",
-            "content": "Former New Zealand cricketer Chris Cairns gives a news conference on day four of the first international test cricket match against New Zealand, at Eden Park in Auckland, February 9, 2014. REUTERS/Ni… [+1356 chars]"
-          },
-          {
-            "source": { "id": null, "name": "The Guardian" },
-            "author": "Agencies",
-            "title": "ICC prepares bid for cricket’s inclusion in 2028 Los Angeles Olympics",
-            "description": "<ul><li>Olympics ‘part of cricket’s long-term future,’ says ICC</li><li>Working group to be chaired by ECB chief Ian Watmore</li></ul>The International Cricket Council is preparing a bid for the game’s inclusion in the 2028 Olympic Games in Los Angeles, the g…",
-            "url": "https://amp.theguardian.com/sport/2021/aug/10/icc-prepares-bid-for-crickets-inclusion-in-2028-los-angeles-olympics",
-            "urlToImage": "https://i.guim.co.uk/img/media/34bb807b6eedfd491cdacc360500adc8999d90f1/0_195_3822_2293/master/3822.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7a927669b8717c7b1f9c8f1621a9098e",
-            "publishedAt": "2021-08-10T08:30:14Z",
-            "content": "The International Cricket Council is preparing a bid for the games inclusion in the 2028 Olympic Games in Los Angeles, the governing body said on Tuesday.\r\nCricket last featured in the 1900 Olympics … [+2265 chars]"
-          },
-          {
-            "source": { "id": null, "name": "New York Times" },
-            "author": "Victor Mather",
-            "title": "Afghan Paralympic Athlete Pleads for Help to Leave the Country",
-            "description": "“My intention is to participate in the Tokyo 2020 Paralympic Games. Please hold my hand and help me,” Zakia Khudadadi, a taekwondo athlete pleaded in a video from Kabul.",
-            "url": "https://www.nytimes.com/2021/08/18/sports/olympics/afghan-paralympic-athlete-video-khudadadi.html",
-            "urlToImage": "https://static01.nyt.com/images/2021/08/18/world/18paralympics-afghan/18afghanistan-briefing-paralympic-facebookJumbo.jpg",
-            "publishedAt": "2021-08-18T14:58:11Z",
-            "content": "The future of sports in the country is unclear under the Taliban, which banned womens sports when it led the country from 1996 to 2001. Many of Afghanistans most promising athletes still dont live in… [+563 chars]"
-          },
-          {
-            "source": { "id": null, "name": "The Guardian" },
-            "author": "Guardian sport with Reuters",
-            "title": "New Zealand cricket great Chris Cairns in intensive care in Sydney",
-            "description": "Former star cricketer transferred to St Vincent’s hospital after surgery in CanberraThe former New Zealand cricket great Chris Cairns is in intensive care at a Sydney hospital after suffering a life-threatening health problem.Cairns, 51, had undergone surgery…",
-            "url": "https://amp.theguardian.com/sport/2021/aug/11/new-zealand-cricket-great-chris-cairns-in-intensive-care-in-sydney",
-            "urlToImage": "https://i.guim.co.uk/img/media/f03fb6bd6b484697b8236555c4b0deb22207974c/0_178_3500_2101/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5e29e50d420dc8bb5a7adfd8d374db58",
-            "publishedAt": "2021-08-11T02:33:02Z",
-            "content": "The former New Zealand cricket great Chris Cairns is in intensive care at a Sydney hospital after suffering a life-threatening health problem.\r\nCairns, 51, had undergone surgery in Canberra for a rep… [+2349 chars]"
-          },
-          {
-            "source": { "id": "reuters", "name": "Reuters" },
-            "author": "Reuters",
-            "title": "Perera returns to Sri Lanka squad for South Africa series - Reuters",
-            "description": "Batsman Kusal Perera has been named in the Sri Lanka squad for next month's limited-overs home series against South Africa after recovering from COVID-19, the country's cricket board said on Monday.",
-            "url": "https://www.reuters.com/lifestyle/sports/perera-returns-sri-lanka-squad-south-africa-series-2021-08-30/",
-            "urlToImage": "https://www.reuters.com/resizer/QHhVzuKhvuqhw-hzzoSOq1Ghbrg=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/XR3NMBTURFOUXMHVRRH3C732QY.jpg",
-            "publishedAt": "2021-08-30T13:55:00Z",
-            "content": "Cricket - ICC Cricket World Cup - Sri Lanka v West Indies - Emirates Riverside, Chester-Le-Street, Britain - July 1, 2019 Sri Lanka's Kusal Perera in action Action Images via Reuters/Lee SmithAug 30 … [+1395 chars]"
-          },
-          {
-            "source": { "id": "reuters", "name": "Reuters" },
-            "author": "Reuters Staff",
-            "title": "UK sends cricket star Botham to bat for British exports - Reuters",
-            "description": "Britain appointed former England cricket star Ian Botham as a trade ambassador to seek new deals for exporters in the country he most famously tangled with on the pitch - Australia.",
-            "url": "https://www.reuters.com/article/britain-trade-botham-idUSL8N2PU13O",
-            "urlToImage": "https://s1.reutersmedia.net/resources_v2/images/rcom-default.png?w=800",
-            "publishedAt": "2021-08-23T07:27:00Z",
-            "content": "By Reuters Staff\r\nLONDON, Aug 23 (Reuters) - Britain appointed former England cricket star Ian Botham as a trade ambassador to seek new deals for exporters in the country he most famously tangled wit… [+731 chars]"
-          },
-          {
-            "source": { "id": "reuters", "name": "Reuters" },
-            "author": "Reuters",
-            "title": "ICC prefers T20 for Olympics but open to other formats - Marathe - Reuters",
-            "description": "Cricket's short Twenty20 format is tailor-made for Olympics but the sport's administrators will consider any format which would ensure the game's inclusion in the 2028 Los Angeles Games, USA Cricket chief Paraag Marathe has said.",
-            "url": "https://www.reuters.com/lifestyle/sports/icc-prefers-t20-olympics-open-other-formats-marathe-2021-08-23/",
-            "urlToImage": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.png?d=50",
-            "publishedAt": "2021-08-23T08:01:00Z",
-            "content": "LONDON, Aug 23 (Reuters) - Cricket's short Twenty20 format is tailor-made for Olympics but the sport's administrators will consider any format which would ensure the game's inclusion in the 2028 Los … [+1827 chars]"
-          },
-          {
-            "source": { "id": "reuters", "name": "Reuters" },
-            "author": "Reuters",
-            "title": "Paceman Steyn calls time on distinguished career - Reuters",
-            "description": "Dale Steyn has announced his retirement from all forms of cricket, closing the curtain on a 20-year career in which he became South Africa’s highest wicket-taker in tests and arguably the country’s greatest ever fast bowler.",
-            "url": "https://www.reuters.com/lifestyle/sports/paceman-steyn-calls-time-distinguished-career-2021-08-31/",
-            "urlToImage": "https://www.reuters.com/resizer/sSHrQGPuxGDydSzwSCI5nZz7RrI=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/JX5GMEYCE5JPJCTEGOCA2PNELQ.jpg",
-            "publishedAt": "2021-08-31T10:58:00Z",
-            "content": "Cricket - ICC Cricket World Cup - South Africa v India - The Ageas Bowl, Southampton, Britain - June 5, 2019 South Africa's Dale Steyn before the match Action Images via Reuters/Paul ChildsCAPE TOWN,… [+1393 chars]"
-          }
-        ]
+  articles= [
+     {
+     "source": {
+    "id": null,
+    "name": "CNBC"
+    },
+    "author": "Hannah Miao",
+    "title": "Stocks making the biggest moves premarket: Coinbase, Tesla, Citrix PayPal and more",
+    "description": "These are the stocks posting the largest moves in premarket trading.",
+    "url": "https://www.cnbc.com/2021/09/08/stocks making the biggest moves premarket coinbase tesla citrix paypal and more.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106868521 1618440974351 gettyimages 1312540547 _dsc9089.jpeg?v=1629798449",
+    "publishedAt": "2021 09 08T11:44:19Z",
+    "content": "Check out the companies making headlines before the bell.\r\nCoinbase Shares of Coinbase fell 3.2% in early morning trading after the cryptocurrency exchange revealed it received a notice of possible e… [+1815 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "Phys.Org"
+    },
+    "author": "David Chandler",
+    "title": "New superconducting magnet breaks magnetic field strength records, paving the way for fusion energy",
+    "description": "It was a moment three years in the making, based on intensive research and design work: On Sept. 5, for the first time, a large high temperature superconducting electromagnet was ramped up to a field strength of 20 tesla, the most powerful magnetic field of i…",
+    "url": "https://phys.org/news/2021 09 superconducting magnet magnetic field strength.html",
+    "urlToImage": "https://scx2.b cdn.net/gfx/news/hires/2021/mit designed project a.jpg",
+    "publishedAt": "2021 09 08T11:41:54Z",
+    "content": "It was a moment three years in the making, based on intensive research and design work: On Sept. 5, for the first time, a large high temperature superconducting electromagnet was ramped up to a field… [+10644 chars]"
+    },
+     {
+     "source": {
+    "id": "cnn",
+    "name": "CNN"
+    },
+    "author": "Ella Nilsen, CNN",
+    "title": "Biden wants an aggressive transition to electric vehicles. A surprising ally is pumping the brakes",
+    "description": "The transition to electric will be a seismic shift for an auto industry dominated by the manufacturing of gas powered vehicles.",
+    "url": "https://www.cnn.com/2021/09/08/business/biden uaw electric vehicles climate/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210907123050 uaw ford plant us 0927 file super tease.jpg",
+    "publishedAt": "2021 09 08T11:41:48Z",
+    "content": "(CNN Business)President Joe Biden wants to corner the market on electric vehicles. In August, he announced a target that by 2030, half of the vehicles sold in the United States will be battery electr… [+7008 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "Yanko Design"
+    },
+    "author": "Srishti Mitra",
+    "title": "IKEA meets Tesla in these tech enhanced furniture designed to make your home a smart one!",
+    "description": "IKEA meets Tesla in these tech enhanced furniture designed to make your home a smart one!I truly believe the right furniture designs make or break a home! After all, furniture is an integral part of any home, it sets the tone...",
+    "url": "https://www.yankodesign.com/2021/09/08/ikea meets tesla in these tech enhanced furniture designed to make your home a smart one/",
+    "urlToImage": "https://www.yankodesign.com/images/design_news/2021/09/ikea meets tesla in these tech enhanced furniture designed to make your home a smart one/IKEA_meets_tesla_tech_enhanced_smart_furniture_designs.jpg",
+    "publishedAt": "2021 09 08T11:40:05Z",
+    "content": "I truly believe the right furniture designs make or break a home! After all, furniture is an integral part of any home, it sets the tone for it and contributes to the essence of the home. You can exp… [+8235 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "Neowin"
+    },
+    "author": "Usama Jawad",
+    "title": "Here is the full list of over 400 cars currently confirmed for Forza Horizon 5",
+    "description": "With the release of Forza Horizon 5 just around the corner, Turn 10 Studios has gone ahead and published a list of the 426 cars currently confirmed for the game. The list will expand over time. Read more...",
+    "url": "https://www.neowin.net/news/here is the full list of over 400 cars currently confirmed for forza horizon 5/",
+    "urlToImage": "https://cdn.neow.in/news/images/uploaded/2021/08/1629813789_forzahorizon5_gamescom 04 16x9_wm_story.jpg",
+    "publishedAt": "2021 09 08T11:38:01Z",
+    "content": "A couple of weeks ago, Microsoft showcased gameplay footage for its upcoming AAA title, Forza Horizon 5. Although the video content we saw emphasized the music, gameplay elements, and environments, a… [+32843 chars]"
+    },
+     {
+     "source": {
+    "id": "reuters",
+    "name": "Reuters"
+    },
+    "author": null,
+    "title": "Futures dip on fears over slowing economic growth   Reuters",
+    "description": "U.S. stock index futures dipped on Wednesday, suggesting that the S&P 500 and Dow Jones indexes would extend losses for a third straight day, as the spread of the Delta coronavirus variant stoked worries of slowing economic growth.",
+    "url": "https://www.reuters.com/business/futures dip fears over slowing economic growth 2021 09 08/",
+    "urlToImage": "https://www.reuters.com/resizer/yUoUB0FJ_6P2MoyWmYSzJ0kqATI=/1200x628/smart/filters:quality(80)/cloudfront us east 2.images.arcpublishing.com/reuters/EWFOP2NXVFL4HDSJIH5655JWNQ.jpg",
+    "publishedAt": "2021 09 08T11:36:00Z",
+    "content": "A trader works on the trading floor at the New York Stock Exchange (NYSE) in Manhattan, New York City, U.S., August 10, 2021. REUTERS/Andrew KellySept 8 (Reuters)   U.S. stock index futures dipped on… [+1717 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "CNA"
+    },
+    "author": null,
+    "title": "Applied Materials aims to improve chip production for electric vehicles",
+    "description": "Applied Materials on Wednesday released two new tools aimed at improving the efficiency of making a new class of chips for electric vehicles.Applied is the world's largest maker of tools for making semiconductors. The machines announced on Wednesday are desig…",
+    "url": "https://www.channelnewsasia.com/business/applied materials aims improve chip production electric vehicles 2164076",
+    "urlToImage": "https://onecms res.cloudinary.com/image/upload/s  GRPPmUuH  /fl_relative%2Cg_south_east%2Cl_one cms:core:watermark:reuters%2Cw_0.1/f_auto%2Cq_auto/c_fill%2Cg_auto%2Ch_676%2Cw_1200/v1/one cms/core/2021 09 08t113230z_1_lynxmpeh870kj_rtroptp_3_applied autos.jpg?itok=Se9rN6eL",
+    "publishedAt": "2021 09 08T11:34:32Z",
+    "content": "Applied Materials on Wednesday released two new tools aimed at improving the efficiency of making a new class of chips for electric vehicles.\r\nApplied is the world's largest maker of tools for making… [+1905 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "Yahoo Entertainment"
+    },
+    "author": "Stephen Nellis",
+    "title": "Applied Materials aims to improve chip production for electric vehicles",
+    "description": "Applied Materials on Wednesday released two new tools aimed at improving the efficiency of making a new class of chips for electric vehicles.  The machines...",
+    "url": "https://finance.yahoo.com/news/applied materials aims improve chip 113230259.html",
+    "urlToImage": "https://s.yimg.com/uu/api/res/1.2/H9MChm3dCn1gdBeore5I0g  ~B/aD00NTA7dz04MDA7YXBwaWQ9eXRhY2h5b24 /https://media.zenfs.com/en/reuters finance.com/b7c1acaf6cc20502dc5245054f11fad6",
+    "publishedAt": "2021 09 08T11:32:30Z",
+    "content": "By Stephen Nellis\r\n(Reuters)   Applied Materials on Wednesday released two new tools aimed at improving the efficiency of making a new class of chips for electric vehicles.\r\nApplied is the world's la… [+1933 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "Slashdot.org"
+    },
+    "author": "feedfeeder",
+    "title": "Peruse through every electric vehicle on sale for 2021 and its range   Roadshow",
+    "description": "It's not just Tesla with EVs on sale. Here's every electric car you can buy and its range so you're in the know.",
+    "url": "https://slashdot.org/firehose.pl?op=view&amp;id=151668343",
+    "urlToImage": null,
+    "publishedAt": "2021 09 08T11:32:27Z",
+    "content": "When someone says \"I want a programming language in which I need only\r\nsay what I wish done,\" give him a lollipop."
+    },
+     {
+     "source": {
+    "id": "reuters",
+    "name": "Reuters"
+    },
+    "author": null,
+    "title": "Applied Materials aims to improve chip production for electric vehicles   Reuters",
+    "description": "Applied Materials <a href=\"https://www.reuters.com/companies/AMAT.O\" target=\"_blank\">(AMAT.O)</a> on Wednesday released two new tools aimed at improving the efficiency of making a new class of chips for electric vehicles.",
+    "url": "https://www.reuters.com/business/autos transportation/applied materials aims improve chip production electric vehicles 2021 09 08/",
+    "urlToImage": "https://www.reuters.com/resizer/7wtF DInpQsQ8qbTYrRx6m2Hwzg=/1200x628/smart/filters:quality(80)/cloudfront us east 2.images.arcpublishing.com/reuters/F53TRLE6UJNZLDE4YQPVDVJXJI.jpg",
+    "publishedAt": "2021 09 08T11:32:00Z",
+    "content": "Sept 8 (Reuters)   Applied Materials (AMAT.O) on Wednesday released two new tools aimed at improving the efficiency of making a new class of chips for electric vehicles.\r\nApplied is the world's large… [+2007 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "NDTV News"
+    },
+    "author": null,
+    "title": "Watch: Man Arrested After Tesla Camera Catches Him Faking Accident",
+    "description": "Police arrested a man in the southeastern US state of Louisiana after he falsified a police report that a Tesla car hit him in a parking lot.",
+    "url": "https://www.ndtv.com/offbeat/tesla hit me claims man on board camera captures him faking injuries arrested 2534027",
+    "urlToImage": "https://c.ndtvimg.com/2021 09/nuqeb828_man fakes tesla accident_625x300_08_September_21.jpg",
+    "publishedAt": "2021 09 08T11:31:43Z",
+    "content": "Arthur Bates Jr was caught faking an accident on camera.\r\nPolice arrested a man in the southeastern US state of Louisiana after he falsified a police report that a Tesla car hit him in a parking lot.… [+2130 chars]"
+    },
+     {
+     "source": {
+    "id": "the times of india",
+    "name": "The Times of India"
+    },
+    "author": "Reuters",
+    "title": "Tesla sold 44,264 China made vehicles in August, local deliveries up",
+    "description": "Local sales of China made vehicles jumped to 12,885 cars last month from 8,621 cars in July. Tesla's sales in the first month of each quarter are usually lower than the following two months.",
+    "url": "https://economictimes.indiatimes.com/industry/renewables/tesla sold 44264 china made vehicles in august local deliveries up/articleshow/86036445.cms",
+    "urlToImage": "https://img.etimg.com/thumb/msid 86036423,width 1070,height 580,imgsize 702672,overlay economictimes/photo.jpg",
+    "publishedAt": "2021 09 08T11:27:47Z",
+    "content": "U.S. electric vehicle maker Tesla Inc in August sold 44,264 China made vehicles, including 31,379 for export, the China Passenger Car Association (CPCA) said on Wednesday.\r\nLocal sales of China made … [+801 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "Android Authority"
+    },
+    "author": "Tristan Rayner",
+    "title": "Daily Authority: Big Apple event ",
+    "description": "Apple's iPhone event set for September 14 but questions remain, new Lenovo tech, Bitcoin in El Salvador, and more tech today!",
+    "url": "https://www.androidauthority.com/newsletters/da september 8 2021/",
+    "urlToImage": "https://cdn57.androidauthority.net/wp content/uploads/2021/09/apple iphone 13 event.jpg",
+    "publishedAt": "2021 09 08T11:13:24Z",
+    "content": "Apple has announced its next major event for September 14th at 10AM PT, titling the event California Streaming and giving away a few hints in the image emailed to press: <ul><li>Apples Marketing SVP … [+6216 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "Eminetra.co.za"
+    },
+    "author": "jonallen",
+    "title": "Could BOSTON DYNAMICS Robots Beat in Fight?",
+    "description": "In a large warehouse like room, two humanoid robots embark on an obstacle course. Their barrel shaped torsos, stuffed with processors and batteries, make it look like they go to the gym a lot but negl",
+    "url": "https://eminetra.co.za/could boston dynamics robots beat me in a fight/393824/",
+    "urlToImage": "https://static01.nyt.com/images/2021/09/12/magazine/12mag screenland/12mag screenland facebookJumbo v2.jpg",
+    "publishedAt": "2021 09 08T11:04:46Z",
+    "content": "There is a accompanying video that goes with the original – one that makes it look like it was designed to allay any fears its counterpart may have aroused. This is a behind the scenes video, in whic… [+2348 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "Phys.Org"
+    },
+    "author": "Science X staff",
+    "title": "Mining waste could be used as an ingredient for cheaper hydrogen fuel production",
+    "description": "Researchers have discovered a way to use mining waste as part of a potential cheaper catalyst for hydrogen fuel production.",
+    "url": "https://phys.org/news/2021 09 ingredient cheaper hydrogen fuel production.html",
+    "urlToImage": "https://scx2.b cdn.net/gfx/news/hires/2021/mining waste could be.jpg",
+    "publishedAt": "2021 09 08T11:00:35Z",
+    "content": "Researchers have discovered a way to use mining waste as part of a potential cheaper catalyst for hydrogen fuel production.\r\nWater splitting reactions that produce hydrogen are triggered using rare p… [+3942 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "CNET"
+    },
+    "author": "Roadshow staff",
+    "title": "Peruse through every electric vehicle on sale for 2021 and its range   Roadshow",
+    "description": "It's not just Tesla with EVs on sale. Here's every electric car you can buy and its range so you're in the know.",
+    "url": "https://www.cnet.com/roadshow/news/electric car ev range/",
+    "urlToImage": "https://www.cnet.com/a/img/kY939i1EQ sPK5EaR 1ZHwREOJ4=/1200x630/2020/09/24/d347b721 9cd6 4129 8618 a245c3b7e746/2020 nissan leaf sl plus ogi 1.jpg",
+    "publishedAt": "2021 09 08T11:00:04Z",
+    "content": "The list of electric cars on sale continues to grow every couple months, and as it grows, it's best to stay informed about how far each of these battery powered machines can go. Even though you don't… [+15601 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "The Dallas Morning News"
+    },
+    "author": "Mitchell Schnurman",
+    "title": "AI may be the next big thing in tech, and Dallas Fort Worth is lagging far behind   The Dallas Morning News",
+    "description": "If artificial intelligence is going to help drive the innovation economy, as many believe, Dallas Fort Worth has some ground to make up. A report by...",
+    "url": "https://www.dallasnews.com/business/technology/2021/09/08/ai may be the next big thing in tech and dallas fort worth is lagging far behind/",
+    "urlToImage": "https://dmn dallas news prod.cdn.arcpublishing.com/resizer/LZc3YcctSKhdZWdco3ksvMWqUSM=/1200x630/smart/filters:no_upscale()/cloudfront us east 1.images.arcpublishing.com/dmn/GBFLFB3WEC5PO3M4I2T2CN22JM.jpg",
+    "publishedAt": "2021 09 08T11:00:03Z",
+    "content": "If artificial intelligence is going to help drive the innovation economy, as many believe, Dallas Fort Worth has some ground to make up.\r\nA report by researchers at the Brookings Institution, release… [+5417 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "Forbes"
+    },
+    "author": "Bill Roberson, Contributor, \n Bill Roberson, Contributor\n https://www.forbes.com/sites/billroberson/",
+    "title": "The 500+hp RINDEV Unity Side By Side Tames Terrain And Isn’t Street Legal   But What If It Was?",
+    "description": "Startup RINDEV is taking the side by side machine into the electric future, but should that future include driving it on public roads? With heat, A/C and other creature comforts, it represents a possible new direction for electric off road machines   if they'…",
+    "url": "https://www.forbes.com/sites/billroberson/2021/09/08/the 500hp rindev unity side by side tames terrain and isnt street legalbut what if it was/",
+    "urlToImage": "https://thumbor.forbes.com/thumbor/fit in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials images.forbesimg.com%2Fimageserve%2F613833df8dea2507d108efde%2F0x0.jpg",
+    "publishedAt": "2021 09 08T11:00:00Z",
+    "content": "On the road where it (might) belong.\r\nRender by RINDEV\r\nThe electrification of transportation continues to touch new segments, and one category thats prime for EV conversion is the off road segment. … [+3387 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "PRNewswire"
+    },
+    "author": null,
+    "title": "Commonwealth Fusion Systems creates viable path to commercial fusion power with world's strongest magnet",
+    "description": "CAMBRIDGE, Mass., Sept. 8, 2021 /PRNewswire/    Commonwealth Fusion Systems (CFS) and MIT's Plasma Science and Fusion Center (PSFC) today announced the successful test of the world's strongest high temperature superconducting (HTS) magnet, the key technology …",
+    "url": "https://www.prnewswire.com/news releases/commonwealth fusion systems creates viable path to commercial fusion power with worlds strongest magnet 301370967.html",
+    "urlToImage": "https://mma.prnewswire.com/media/1172159/CFS_Logo.jpg?p=facebook",
+    "publishedAt": "2021 09 08T11:00:00Z",
+    "content": "CAMBRIDGE, Mass., Sept. 8, 2021 /PRNewswire/    Commonwealth Fusion Systems (CFS) and MIT's Plasma Science and Fusion Center (PSFC) today announced the successful test of the world's strongest high t… [+3430 chars]"
+    },
+     {
+     "source": {
+    "id": null,
+    "name": "Mit.edu"
+    },
+    "author": "David Chandler | MIT News Office",
+    "title": "MIT designed project achieves major advance toward fusion energy",
+    "description": "For the first time, a large high temperature superconducting electromagnet was ramped to a field strength of 20 tesla, the most powerful magnetic field of its kind ever created. The demonstration helps resolve the greatest uncertainty in the quest to build th…",
+    "url": "https://news.mit.edu/2021/MIT CFS major advance toward fusion energy 0908",
+    "urlToImage": "https://news.mit.edu/sites/default/files/images/202109/MIT_Fusion Magnets 01 PRESS.jpg",
+    "publishedAt": "2021 09 08T11:00:00Z",
+    "content": "It was a moment three years in the making, based on intensive research and design work: On Sept. 5, for the first time, a large high temperature superconducting electromagnet was ramped up to a field… [+10107 chars]"
+    }
+    ]
+    
       
     constructor(){
         super();
@@ -213,14 +274,21 @@ export default class News extends Component {
             loading:false
         }
     }
+    async componentDidMount(){
+      let url="https://newsapi.org/v2/everything?q=tesla&from=2021 08 08&sortBy=publishedAt&apiKey=a2f198470e4242b8ac53a1ecafbba5b5";
+        let data=await fetch(url);
+        let parsedData=await data.json();
+        this.setState({articles: parsedData.articles})
+    }
+    
     render() {
         return (
-            <div className="container my-3" >
-                <h2>Newsapp- Top Headlines</h2>
+            <div className="container my 3" >
+                <h2>Newsapp  Top Headlines</h2>
                  <div className="row" >
                 {this.state.articles.map((element)=>{
                     
-               return <div className="col-md-4" key={element.url}>
+               return <div className="col md 4" key={element.url}>
                     <NewsItem title={element.title} description={element.description} imageurl={element.urlToImage} newsUrl={element.url}/>
                 </div>
                 })}
