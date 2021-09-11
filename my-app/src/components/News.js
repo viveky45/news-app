@@ -275,11 +275,14 @@ export default class News extends Component {
         }
     }
     async componentDidMount(){
-      let url="https://newsapi.org/v2/everything?q=tesla&from=2021 08 08&sortBy=publishedAt&apiKey=a2f198470e4242b8ac53a1ecafbba5b5";
-        let data=await fetch(url);
-        let parsedData=await data.json();
-        this.setState({articles: parsedData.articles})
-    }
+        let url="https://newsapi.org/v2/everything?q=tesla&from=2021 08 08&sortBy=publishedAt&apiKey=a2f198470e4242b8ac53a1ecafbba5b5";
+          let data=await fetch(url);
+          let parsedData=await data.json();
+          this.setState({articles: parsedData.articles})
+      }
+   handleprev=()=>{
+
+   }
     
     render() {
         return (
@@ -293,8 +296,11 @@ export default class News extends Component {
                 </div>
                 })}
                 </div>
-
-                    
+                
+                <div className="container my-3 d-flex justify-content-between">
+                    <button type="button" class="btn btn-dark" onClick={this.handleprev}>Previous</button>
+                    <button type="button" class="btn btn-dark" onClick={this.handlenext}>Next</button>
+                    </div>
                       
 
             </div>
