@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import NewsItem from './NewsItem'
+import Spinner from './Spinner';
 
 export default class News extends Component {
 
@@ -271,35 +272,60 @@ export default class News extends Component {
         super();
         this.state={
             articles:this.articles,
-            loading:false
+            loading:false,
+            page:1
         }
     }
     async componentDidMount(){
-        let url="https://newsapi.org/v2/everything?q=tesla&from=2021 08 08&sortBy=publishedAt&apiKey=a2f198470e4242b8ac53a1ecafbba5b5";
+        let url=`https://newsapi.org/v2/everything?q=tesla&from=2021-08-22&sortBy=publishedAt&apiKey=a2f198470e4242b8ac53a1ecafbba5b5&pageSize=${this.props.pageSize}`;
           let data=await fetch(url);
           let parsedData=await data.json();
-          this.setState({articles: parsedData.articles})
+          this.setState({articles: parsedData.articles,totalResults:parsedData.totalResults})
       }
-   handleprev=()=>{
-
+   handlePrevClick= async()=>{
+     let url = `https://newsapi.org/v2/everything?q=tesla&from=2021-08-22&sortBy=publishedAt&apiKey=a2f198470e4242b8ac53a1ecafbba5b5&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`
+    this.setState({loading:true})
+     let data=await fetch(url);
+    let parsedData=await data.json();
+    this.setState({
+        page:this.state.page-1,
+        articles: parsedData.articles,
+        loading:false
+    })
+    }
+   handleNextClick=async()=>
+   {
+       if(!(this.state.page + 1> Math.ceil(this.state.totalResults/this.props.pageSize)))
+       {
+    let url=`https://newsapi.org/v2/everything?q=tesla&from=2021-08-22&sortBy=publishedAt&apiKey=a2f198470e4242b8ac53a1ecafbba5b5&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
+    this.setState({loading:true})
+    let data=await fetch(url);
+    let parsedData=await data.json();
+    this.setState({
+        page:this.state.page+1,
+        articles: parsedData.articles,
+        loading:false
+    })
+       }
    }
     
     render() {
         return (
             <div className="container my 3" >
-                <h2>Newsapp  Top Headlines</h2>
+                <h1 className="text-center">Newsapp  Top Headlines</h1>
+                {this.state.loading && <Spinner/>}
                  <div className="row" >
-                {this.state.articles.map((element)=>{
+                {!this.state.loading && this.state.articles.map((element)=>{
                     
                return <div className="col md 4" key={element.url}>
-                    <NewsItem title={element.title} description={element.description} imageurl={element.urlToImage} newsUrl={element.url}/>
+                    <NewsItem title={element.title?element.title:""} description={element.description?element.description:""} imageurl={element.urlToImage} newsUrl={element.url}/>
                 </div>
                 })}
                 </div>
                 
                 <div className="container my-3 d-flex justify-content-between">
-                    <button type="button" class="btn btn-dark" onClick={this.handleprev}>Previous</button>
-                    <button type="button" class="btn btn-dark" onClick={this.handlenext}>Next</button>
+                    <button disabled={this.state.page<=1} type="button" class="btn btn-dark" onClick={this.handlePrevClick}> &larr; Previous</button>
+                    <button disabled={this.state.page + 1> Math.ceil(this.state.totalResults/this.props.pageSize)}type="button" class="btn btn-dark" onClick={this.handleNextClick}>Next &rarr;</button>
                     </div>
                       
 
