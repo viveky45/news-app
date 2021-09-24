@@ -16,21 +16,7 @@ export default class News extends Component {
         pageSize:PropTypes.number,
         category:PropTypes.string
     }
-    articles= [
-        {
-        "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
-        },
-        "author": "Rachel Pannett",
-        "title": "France to bill Australia over submarine deal as Britain's Johnson tells Macron: 'Donnez-moi un break' - The Washington Post",
-        "description": "Australia agreed to buy 12 submarines from France before it joined the AUKUS defense pact and the break fee — on top of more than $1 billion reportedly already spent — could be substantial.",
-        "url": "https://www.washingtonpost.com/world/2021/09/23/submarine-france-australia-boris-johnson/",
-        "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SPHN3NQ2D4I6ZPVIGCHKCNCZJ4.jpg&w=1440",
-        "publishedAt": "2021-09-23T06:39:15Z",
-        "content": "Pommellet said that Australia had told his company, which is majority-owned by the French taxpayer, to go ahead with a new phase of the program on the very morning last week that the contract was ter… [+3456 chars]"
-        }
-    ]
+    articles=[]
       
     constructor(){
         super();
@@ -82,7 +68,7 @@ export default class News extends Component {
                 {!this.state.loading && this.state.articles.map((element)=>{
                     
                return <div className="col md 4" key={element.url}>
-                    <NewsItem title={element.title?element.title:""} description={element.description?element.description:""} imageurl={element.urlToImage} newsUrl={element.url}/>
+                    <NewsItem title={element.title?element.title:""} description={element.description?element.description:""} imageurl={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} source={element.source.name}/>
                 </div>
                 })}
                 </div>
