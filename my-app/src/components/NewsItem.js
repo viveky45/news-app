@@ -8,7 +8,7 @@ export default class NewsItem extends Component {
         return (
            
             <div className="my-3" style={{display:'flex',justifyContent:'center'}}>
-                <div className="card" style={{width:'20rem'}}>
+                <div className="card" style={{width:'20rem',minHeight:'30rem',maxHeight:'auto'}}>
                     <div>
                     <span className="badge rounded-pill bg-danger" style={{left:'90%',zIndex:'1'}}>{source}
                     </span>

@@ -17,17 +17,7 @@ export default class News extends Component {
         pageSize: PropTypes.number,
         category: PropTypes.string
     }
-    articles = [
-        {
-    "author": "Sami Fathi",
-    "title": "Apple Labels iPhone 12 As 'Legacy' Device, Lists Four Unreleased iPhones in New MagSafe Charger FCC Filing",
-    "description": "Apple has referenced four unreleased iPhones in an updated FCC filing for its MagSafe charger, while at the same time referencing the currently released iPhone 12 lineup as \"legacy\" iPhones. \n\n\n\n\n\nThe new filing doesn't reveal any details about a possible upd…",
-    "url": "https://www.macrumors.com/2021/09/07/magsafechargerfilingnewiphones/",
-    "urlToImage": "https://images.macrumors.com/t/yNtwcVYiiCXJENLX6bqlWIP4m34=/1920x/https://images.macrumors.com/articlenew/2021/07/iphone12proiphone13pro.jpg",
-    "publishedAt": "20210907T06:45:00Z",
-    "content": "Apple has referenced four unreleased iPhones in an updated FCC filing for its MagSafe charger, while at the same time referencing the currently released iPhone 12 lineup as \"legacy\" iPhones. \r\nThe ne… [+1276 chars]"
-    }
-    ]
+    articles = []
 
     constructor(props) {
         super(props);
